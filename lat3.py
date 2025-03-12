@@ -27,8 +27,12 @@ class danang :
 class garis :
     def suara_ketawa(self):
         return "hahahaha"
-        
+
+class rauf :
+    def suara_ketawa(self):
+        return "awokawokawkoawoawkoawk"
 
 cara_ketawa(danang())
 cara_ketawa(garis())
+cara_ketawa(rauf())
         
